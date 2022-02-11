@@ -1,0 +1,46 @@
+.login-page{
+    background-image: url("img1.jpg");
+    background-size: 106%;
+}
+
+.ticket-page{
+    background-image: url("background.jpg");
+    background-size: 106%;
+}
+
+
+.login-card{
+    margin: 35%;
+    width: 85%;
+    background-color: #f5f5f5;
+}
+
+.form-input{
+    padding-bottom: 5%;
+}
+
+.input-login{
+    background-color: #f7f7f7;
+}
+
+.input-info{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.navbar{
+    background-color: #f5f5f5 !important;
+}
+
+.check-button{
+    margin-bottom: 3%;
+}
+
+
+.navbar-nav{
+    margin-left: 65% !important
+}
+
+.nav-item{
+    padding-right: 5% !important;
+}

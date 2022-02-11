@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    
+</head>
+
+<body>
+    <div class = "login-page">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navvvv">
+            <a class="navbar-brand" href="#">Expense Reimbursement</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul> -->
+            </div>
+        </nav>
+    
+
+    <div class="login">
+        <div class="row">
+            <div class="col-lg-5 mx-auto">
+                <div class="card login-card mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">User Login</h5>
+                        <!-- <form class="form-login">
+                            <div class="form-input">
+                                <label for="exampleInputEmail1">Username</label>
+                                <input id = "username-input" class="form-control input-login" placeholder="Username" required />
+                            </div>
+
+                            <div class="form-input">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password" id = "password-input" class="form-control input-login" placeholder="Password" required />
+                            </div>
+                            <button id = "login-submit" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Login</button>
+                        </form> -->
+
+                        <form class="form-login" method="post" action="http://localhost:8080/ExpenseReimbursementSystem/user/login">
+                            <div class="form-input">
+                                <input type="text" class="form-control input-login" placeholder="Enter Username" name="username"/>
+                                <br>
+                                <input type="password" class="form-control input-login" placeholder="Enter Password" name="password"/>
+                                <br>
+                                <input class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" value="Login"/>
+                            </div>
+                        </form>
+                
+                       
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./login.js"></script>
+</body>
+
+</html>

@@ -31,9 +31,7 @@ public class ReimbursementDaoImpl implements ReimbursementDao {
 		}
 	}
 
-	public static String url = "jdbc:postgresql://database-1.cs3rmdygz6ka.us-east-2.rds.amazonaws.com:5432/ExpenseDB?stringtype=unspecified";
-	public static String username = "postgres";
-	public static String password = "p4ssw0rd";
+
 
 	@Override
 	public User login(String username1, String password1) {
